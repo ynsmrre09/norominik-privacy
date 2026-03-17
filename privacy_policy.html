@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NöroMinik — Gizlilik Politikası</title>
+    <style>
+        :root {
+            --primary: #6D63E8;
+            --primary-dark: #4E45B9;
+            --text: #1E1A3B;
+            --text-muted: #524C7A;
+            --bg: #F8F6FF;
+            --card: #FFFFFF;
+            --border: #E2DCF9;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', 'Nunito', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 48px 24px 36px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 8px;
+        }
+
+        .hero p {
+            opacity: 0.85;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: -20px auto 40px;
+            padding: 0 16px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 12px rgba(15, 10, 36, 0.06);
+        }
+
+        .card h2 {
+            font-size: 18px;
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card h3 {
+            font-size: 15px;
+            font-weight: 800;
+            color: var(--text);
+            margin: 16px 0 8px;
+        }
+
+        .card p, .card li {
+            color: var(--text-muted);
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.55;
+        }
+
+        .card ul {
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+
+        .card li {
+            margin-bottom: 6px;
+        }
+
+        .highlight-box {
+            background: rgba(109, 99, 232, 0.06);
+            border: 1px solid rgba(109, 99, 232, 0.15);
+            border-radius: 14px;
+            padding: 14px 16px;
+            margin: 12px 0;
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .highlight-box strong {
+            color: var(--primary);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--text-muted);
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 480px) {
+            .hero { padding: 36px 16px 28px; }
+            .hero h1 { font-size: 22px; }
+            .card { padding: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>🧠 NöroMinik</h1>
+    <p>Gizlilik Politikası & KVKK Aydınlatma Metni</p>
+    <p style="margin-top: 6px; font-size: 12px; opacity: 0.7;">Son güncelleme: Mart 2026</p>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>📋 Genel Bilgi</h2>
+        <p>NöroMinik, ebeveynlere yönelik gelişimsel destek platformudur. Uygulama; yaşa uygun aktivite önerileri, konuşma gelişimi egzersizleri, eğitici mini oyunlar, kişisel rehberlik planları ve haftalık ilerleme takibi hizmetleri sunar.</p>
+        <div class="highlight-box">
+            <strong>⚠️ Önemli:</strong> NöroMinik tıbbi tanı, teşhis veya tedavi hizmeti sunmaz. Çocuğunuzun gelişimine ilişkin endişeleriniz varsa mutlaka bir uzman hekime danışınız.
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📦 Toplanan Veriler</h2>
+
+        <h3>a) Hesap Bilgileri</h3>
+        <ul>
+            <li>Ad ve soyad</li>
+            <li>E-posta adresi</li>
+            <li>Şifre (hashlenmiş olarak saklanır)</li>
+        </ul>
+
+        <h3>b) Çocuk Bilgileri</h3>
+        <ul>
+            <li>Çocuğun adı (opsiyonel)</li>
+            <li>Yaş grubu (0-1, 1-2, 2-3, 3-4, 4-5, 5-6, +6)</li>
+            <li>Seçilen gelişimsel destek alanları</li>
+        </ul>
+
+        <h3>c) Kullanım Verileri</h3>
+        <ul>
+            <li>Kaydedilen ve tamamlanan aktiviteler</li>
+            <li>Hatırlatıcı tercihleri</li>
+            <li>Anket yanıtları (Premium rehberlik için)</li>
+            <li>Şehir (opsiyonel)</li>
+        </ul>
+
+        <div class="highlight-box">
+            <strong>🔒 Hassas Veri:</strong> NöroMinik, sağlık kaydı, biyometrik veri, TC kimlik numarası gibi özel nitelikli kişisel veri <strong>toplamaz</strong>.
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🎯 Veri İşleme Amaçları</h2>
+        <ul>
+            <li>Hesap oluşturma ve kimlik doğrulama</li>
+            <li>Yaşa ve destek alanlarına uygun aktivite önerisi sunma</li>
+            <li>Kişisel rehberlik planları oluşturma (Premium)</li>
+            <li>İlerleme takibi ve haftalık raporlama</li>
+            <li>Hatırlatıcı bildirimleri gönderme</li>
+            <li>Uygulama performansını iyileştirme ve hata analizi</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🔐 Veri Saklama ve Güvenlik</h2>
+        <ul>
+            <li>Veriler Supabase bulut altyapısında, şifrelenmiş bağlantılar (SSL/TLS) üzerinden saklanır</li>
+            <li>Şifreler hash algoritmasıyla korunur; düz metin olarak saklanmaz</li>
+            <li>Satır Düzeyi Güvenlik (RLS) ile her kullanıcı yalnızca kendi verilerine erişebilir</li>
+            <li>Opsiyonel alanlar zorunlu değildir</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🤝 Veri Paylaşımı</h2>
+        <ul>
+            <li>Kişisel verilerinizi üçüncü taraflara <strong>satmayız</strong></li>
+            <li>Supabase ile yalnızca hizmeti sunmak için sınırlı veri paylaşımı yapılır</li>
+            <li>Yasal zorunluluk hâlinde yetkili kamu kuruluşlarına veri aktarımı yapılabilir</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>👶 Çocukların Gizliliği</h2>
+        <p>NöroMinik doğrudan çocuklara yönelik değildir; ebeveynler tarafından kullanılmak üzere tasarlanmıştır. Çocuğa ait toplanan bilgiler (ad, yaş grubu) ebeveyn tarafından sağlanır. 13 yaşından küçük çocuklardan doğrudan kişisel veri toplanmaz.</p>
+    </div>
+
+    <div class="card">
+        <h2>⚖️ KVKK Haklarınız (m.11)</h2>
+        <ul>
+            <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+            <li>İşlenmişse bilgi talep etme</li>
+            <li>İşlenme amacını öğrenme</li>
+            <li>Aktarıldığı üçüncü kişileri bilme</li>
+            <li>Eksik veya yanlış işlenmişse düzeltilmesini isteme</li>
+            <li>Silinmesini veya yok edilmesini isteme</li>
+            <li>Otomatik analiz sonuçlarına itiraz etme</li>
+            <li>Kanuna aykırı işleme nedeniyle zararın giderilmesini talep etme</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🗑️ Hesap Silme</h2>
+        <p>Hesabınızı ve tüm kişisel verilerinizi istediğiniz zaman uygulama içinden silebilirsiniz:</p>
+        <p style="margin-top: 8px;"><strong>Profil → Hesabımı Sil</strong></p>
+        <p style="margin-top: 8px; font-size: 13px;">Bu işlem geri alınamaz. Hesabınız, çocuk profilleri, anket sonuçları, aktivite geçmişi ve tüm kişisel verileriniz sunucularımızdan kalıcı olarak silinir.</p>
+    </div>
+
+    <div class="card">
+        <h2>📬 İletişim</h2>
+        <p>Gizlilik ile ilgili sorularınız veya haklarınızı kullanmak için:</p>
+        <p style="margin-top: 8px;"><strong>E-posta:</strong> destek@norominik.com</p>
+        <p style="margin-top: 4px; font-size: 13px;">Başvurularınız en geç 30 gün içinde ücretsiz olarak sonuçlandırılır.</p>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>© 2026 NöroMinik. Tüm hakları saklıdır.</p>
+    <p>Bu politika, Türkiye Cumhuriyeti hukukuna tabidir.</p>
+</div>
+
+</body>
+</html>
